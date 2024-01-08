@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 30px;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+body {
+    position: absolute;
+    width: 1520px;
+    height: 700px;
+    animation: changeImage 8s infinite;
+}
+
+@keyframes changeImage {
+    0% {
+        background: url(./img/japan-0.jpg);
+    }
+
+    45% {
+        background: url(./img/Sumida-river.jpg);
+    }
+
+    75% {
+        background: url(./img/Tokyo-1.jpg);
+    }
+
+    100% {
+        background: url(./img/Section3.jpg);
+    }
+}
